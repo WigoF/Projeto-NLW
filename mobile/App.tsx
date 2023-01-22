@@ -11,7 +11,9 @@ import {
 
 
 import { Loading } from './src/components/Loding';
-import { Home } from './src/screams/Home';
+import { Routes } from './src/routes';
+
+
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -29,7 +31,7 @@ export default function App() {
 
   return (
     <>
-      <Home/>
+      <Routes/>
       <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
     </>
   );
