@@ -9,7 +9,7 @@ export function Header(){
   
   
   return(
-        <div className='w-full max-w-3xl mx-auto flex items-center justify-between py-16'>
+        <div className='w-full max-w-3xl mx-auto flex items-center justify-between py-16 transition-colors focus: outline-nome focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 focus-offset-background'>
           <img src={logoImage} alt='habits'/>
 
           <Dialog.Root>
