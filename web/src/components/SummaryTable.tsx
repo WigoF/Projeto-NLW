@@ -28,7 +28,7 @@ export function SummaryTable(){
         })
     }, [])
     return(
-        <div className="w-full flex">
+        <div className="w-full flex mt-9">
             <div className="grid grid-rows-7 grid-flow-row gap-3">
                 {weekDays.map((weekDay, i) =>{
                     return(
